@@ -1,0 +1,47 @@
+body {
+    background: : #FFFFFF;
+    color: #9400D3;
+    font-family: "Work Sans";
+    text-align: left;
+}
+h1 {
+  color: #9400D3;
+  background-color:;
+  text-align: left;
+}
+span {
+  color: purple;
+}
+img {
+  max-width: 100%;
+}
+.list {
+border: 1px solid purple;
+}
+.list li {
+font-size: 22px;
+font-weight: bold;
+}
+.important {
+  font-weight: bold;
+  color: teal;
+}
+.fake {
+  background:yellow;
+}
+
+.prestige .col-md {
+  background: purple;
+  color: yellow;
+  border: 2px solid teal;
+  min-height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: #FFCC00;
+  }
+  img {
+    width: 100%;
+  }
+}
